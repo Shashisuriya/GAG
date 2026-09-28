@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gateway Auto Garage LLC | Car Repair in Ajman | Since 2002</title>
+<meta name="description" content="Mechanical repairs, denting & painting, AC, gearbox, electrical and fleet service in Ajman New Industrial Area 2. Trusted since 2002. Book on WhatsApp.">
+<meta name="theme-color" content="#0a1a4a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23f7c600%22/><text x=%2250%22 y=%2270%22 font-size=%2260%22 font-weight=%22900%22 text-anchor=%22middle%22 fill=%22%230a2a8a%22>G</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#081540;--blue:#0b2f9a;--ink:#0a1230;--yellow:#f7c600;--paper:#fffdf5;--mute:#5b6280;--wa:#1fa855;
+--d:'Barlow Condensed','Arial Narrow',Impact,sans-serif;--b:'Inter',system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:var(--b);color:var(--ink);background:var(--paper);line-height:1.55;padding-bottom:calc(76px + env(safe-area-inset-bottom,0px));-webkit-text-size-adjust:100%}
+a{color:inherit;text-decoration:none}
+.w{max-width:1120px;margin:auto;padding:0 20px}
+h1,h2,h3{font-family:var(--d);line-height:1;letter-spacing:.2px}
+h2{font-size:clamp(34px,6vw,54px);font-weight:800;margin-bottom:12px}
+section{padding:72px 0}
+.lead{color:var(--mute);max-width:56ch;margin-bottom:32px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:12px;font-weight:600;border:0;cursor:pointer;font:600 16px var(--b);min-height:48px;transition:transform .15s}
+.btn:active{transform:scale(.97)}
+.y{background:var(--yellow);color:var(--navy)}
+.g{background:var(--wa);color:#fff}
+.o{border:2px solid rgba(255,255,255,.4);color:#fff}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+/* nav */
+header{position:sticky;top:0;z-index:50;background:rgba(8,21,64,.92);backdrop-filter:blur(10px);padding-top:env(safe-area-inset-top,0px)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-family:var(--d);font-weight:800;font-size:22px;color:#fff;letter-spacing:.5px}
+.logo b{background:var(--yellow);color:var(--navy);padding:0 7px;border-radius:6px;margin-right:8px}
+nav{display:none;gap:26px;color:#dfe5ff;font-size:15px}
+nav a:hover{color:var(--yellow)}
+.hcall{display:none}
+@media(min-width:820px){nav{display:flex}.hcall{display:inline-flex;padding:10px 18px;min-height:0}}
+/* hero */
+.hero{background:radial-gradient(1200px 500px at 85% -10%,#1d47c8 0%,transparent 60%),var(--navy);color:#fff;padding:56px 0 0;overflow:hidden;position:relative}
+.hero h1{font-size:clamp(46px,11vw,104px);font-weight:800;text-transform:uppercase;max-width:14ch}
+.hero h1 span{color:var(--yellow)}
+.hero p{color:#c9d3ff;max-width:46ch;margin:18px 0 26px;font-size:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.since{position:absolute;right:-30px;top:40px;font-family:var(--d);font-weight:800;font-size:clamp(140px,26vw,320px);color:rgba(255,255,255,.05);line-height:.8;pointer-events:none}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:48px;border-top:1px solid rgba(255,255,255,.15)}
+.stats div{padding:22px 0;text-align:left}
+.stats b{display:block;font:800 clamp(34px,7vw,56px)/1 var(--d);color:var(--yellow)}
+.stats small{color:#b7c3f5;font-size:13px}
+.strip{background:var(--yellow);color:var(--navy);overflow:hidden;white-space:nowrap;font:800 22px var(--d);padding:10px 0;text-transform:uppercase}
+.strip div{display:inline-block;animation:mq 28s linear infinite}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* offers */
+.offers{display:grid;gap:16px}
+@media(min-width:820px){.offers{grid-template-columns:repeat(3,1fr)}}
+.offer{border-radius:20px;padding:28px;background:var(--navy);color:#fff;display:flex;flex-direction:column;gap:10px;position:relative}
+.offer.hot{background:var(--yellow);color:var(--navy)}
+.offer .tag{font:700 14px var(--d);letter-spacing:1px;text-transform:uppercase;opacity:.75}
+.offer h3{font-size:36px;font-weight:800}
+.offer .big{font:800 64px/1 var(--d)}
+.offer p{font-size:15px;opacity:.85;flex:1}
+.offer .btn{margin-top:8px}
+.hot .btn{background:var(--navy);color:#fff}
+/* services */
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;padding:11px 18px;border-radius:99px;border:2px solid #d9dcec;background:#fff;font:600 15px var(--b);cursor:pointer;color:var(--ink);min-height:46px}
+.tab[aria-selected=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.panel{background:#fff;border-radius:20px;padding:28px;margin-top:14px;border:1px solid #e6e8f3;display:grid;gap:22px;animation:fade .3s}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}}
+@media(min-width:820px){.panel{grid-template-columns:1fr 1fr;padding:40px}}
+.panel h3{font-size:42px;font-weight:800;color:var(--blue);margin-bottom:8px}
+.panel ul{list-style:none;padding:0;display:grid;gap:10px}
+.panel li{padding-left:28px;position:relative}
+.panel li:before{content:"";position:absolute;left:0;top:7px;width:14px;height:14px;border-radius:4px;background:var(--yellow);box-shadow:inset 0 0 0 3px var(--navy)}
+/* symptom */
+.sym{background:var(--navy);color:#fff}
+.sym .lead{color:#b7c3f5}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.chip{padding:12px 18px;border-radius:99px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);color:#fff;font:500 15px var(--b);cursor:pointer;min-height:46px}
+.chip[aria-pressed=true]{background:var(--yellow);color:var(--navy);border-color:var(--yellow)}
+.res{background:rgba(255,255,255,.07);border-radius:18px;padding:24px;min-height:120px}
+.res b{font:800 28px var(--d);color:var(--yellow);display:block;margin-bottom:6px}
+.res .btn{margin-top:14px}
+/* why */
+.why{display:grid;gap:14px}
+@media(min-width:700px){.why{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:980px){.why{grid-template-columns:repeat(4,1fr)}}
+.why div{padding:24px;border-left:5px solid var(--yellow);background:#fff;border-radius:6px 16px 16px 6px}
+.why h3{font-size:26px;font-weight:800;color:var(--blue);margin-bottom:6px}
+.why p{font-size:15px;color:var(--mute)}
+/* book */
+.book{background:linear-gradient(160deg,var(--blue),var(--navy));color:#fff}
+.bgrid{display:grid;gap:32px}
+@media(min-width:900px){.bgrid{grid-template-columns:1fr 1fr;align-items:start}}
+form{background:#fff;color:var(--ink);border-radius:20px;padding:24px;display:grid;gap:14px}
+label{font-weight:600;font-size:14px;display:grid;gap:6px}
+input,select,textarea{font:400 16px var(--b);padding:13px;border:2px solid #d9dcec;border-radius:10px;width:100%;background:#fff;color:var(--ink)}
+input:focus,select:focus,textarea:focus{border-color:var(--blue);outline:0}
+.info p{margin:0 0 14px;color:#d6defc}
+.info a.big{display:block;font:800 34px var(--d);color:var(--yellow)}
+.info .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+footer{background:#050d2b;color:#9fabd8;padding:34px 0;font-size:14px;text-align:center}
+footer .ar{font-size:18px;color:#fff;margin-bottom:6px}
+/* sticky whatsapp bar */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:10px;justify-content:center;background:linear-gradient(transparent,rgba(5,13,43,.55))}
+.bar a{box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.bar .wa{flex:1;max-width:420px;animation:pulse 2.6s infinite}
+.bar .call{background:var(--yellow);color:var(--navy);padding:14px 18px}
+@keyframes pulse{0%,100%{box-shadow:0 8px 24px rgba(0,0,0,.3),0 0 0 0 rgba(31,168,85,.5)}60%{box-shadow:0 8px 24px rgba(0,0,0,.3),0 0 0 14px rgba(31,168,85,0)}}
+
+.logo img{height:42px;width:42px;object-fit:cover;border-radius:10px;margin-right:10px;vertical-align:middle}
+.hv{margin:34px auto 0;width:min(78%,320px);perspective:900px}
+.tilt{transform-style:preserve-3d;transition:transform .15s;will-change:transform}
+.hv img{width:100%;display:block;border-radius:28px;box-shadow:0 30px 60px rgba(0,0,0,.55),0 0 0 3px rgba(247,198,0,.5);animation:fl 6s ease-in-out infinite}
+@keyframes fl{50%{translate:0 -10px}}
+@media(min-width:900px){.hv{position:absolute;right:20px;top:-6px;width:390px;margin:0}}
+.jr{background:var(--navy);color:#fff}.jr .lead{color:#b7c3f5}
+.road{position:relative;height:64px;margin:6px 0 26px}
+.road:before{content:"";position:absolute;left:0;right:0;bottom:6px;height:6px;border-radius:9px;background:repeating-linear-gradient(90deg,#f7c600 0 22px,transparent 22px 40px)}
+.cr{position:absolute;bottom:10px;left:0;width:90px;transition:left .2s linear}
+.cr .wl{transform-box:fill-box;transform-origin:center;animation:sp .6s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.jg{display:grid;gap:22px}
+@media(min-width:860px){.jg{grid-template-columns:1fr 1fr;align-items:center}}
+.jl{list-style:none;padding:0;display:grid;gap:10px}
+.jl li{padding:14px 16px;border-radius:14px;border:1px solid rgba(255,255,255,.14);opacity:.45;transition:.4s;display:grid;grid-template-columns:36px 1fr;gap:12px}
+.jl li.on{opacity:1;background:rgba(247,198,0,.12);border-color:var(--yellow)}
+.jl b{font:800 22px var(--d);width:34px;height:34px;border-radius:50%;background:var(--yellow);color:var(--navy);display:grid;place-items:center}
+.jl span{display:block;font-size:14px;color:#c9d3ff}
+.jimg{position:relative;aspect-ratio:4/3;border-radius:22px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+@media(min-width:860px){.jimg{position:sticky;top:90px}}
+.jimg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.08);transition:opacity .6s,transform 1.2s}
+.jimg img.on{opacity:1;transform:none}
+.ba{position:relative;max-width:520px;aspect-ratio:87/78;border-radius:20px;overflow:hidden;margin:auto;touch-action:pan-y;box-shadow:0 20px 50px rgba(8,21,64,.25)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#bf{clip-path:inset(0 50% 0 0)}
+.ba i{position:absolute;top:0;bottom:0;left:50%;width:4px;background:var(--yellow);pointer-events:none}
+.ba i:after{content:"<>";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:var(--yellow);color:var(--navy);display:grid;place-items:center;font-weight:800}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0;padding:0;border:0}
+.ba em{position:absolute;bottom:12px;padding:5px 12px;border-radius:99px;background:var(--navy);color:#fff;font:600 13px var(--b);font-style:normal}
+.two{display:grid;gap:34px}
+@media(min-width:900px){.two{grid-template-columns:1fr 1fr;align-items:center}}
+.rims{display:grid;gap:14px;grid-template-columns:repeat(3,1fr)}
+.fc{perspective:900px;height:210px;cursor:pointer}
+.fi{position:relative;height:100%;transition:transform .7s;transform-style:preserve-3d}
+.fc.f .fi{transform:rotateY(180deg)}
+@media(hover:hover){.fc:hover .fi{transform:rotateY(180deg)}}
+.fa,.fb{position:absolute;inset:0;border-radius:16px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.fa img{width:100%;height:100%;object-fit:cover}
+.fa b{position:absolute;left:0;right:0;bottom:0;padding:26px 8px 8px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff;font:800 20px var(--d);text-align:center}
+.fb{background:var(--yellow);transform:rotateY(180deg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:10px;text-align:center;font-size:13px;color:var(--navy)}
+.fb .btn{padding:9px 12px;min-height:40px;font-size:14px}
+@media(max-width:520px){.rims{grid-template-columns:1fr}.fc{height:190px}}
+.all{display:grid;gap:8px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:760px){.all{grid-template-columns:repeat(4,1fr)}}
+.all a{padding:14px;border-radius:12px;background:#fff;border:1px solid #e0e3f2;font-size:14px;font-weight:500;transition:.2s;min-height:52px;display:flex;align-items:center}
+.all a:hover,.all a:active{background:var(--blue);color:#fff;transform:translateY(-3px)}
+.gp{margin:42px 0 12px;font:800 28px var(--d);color:var(--blue)}
+.ph{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;margin-bottom:14px}
+.wk{display:grid;gap:14px}
+@media(min-width:800px){.wk{grid-template-columns:1.3fr 1fr}}
+.wk figure{position:relative;border-radius:20px;overflow:hidden;margin:0;min-height:260px}
+.wk img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}
+.wk figcaption{position:absolute;left:14px;bottom:14px;background:var(--yellow);color:var(--navy);font:800 20px var(--d);padding:6px 14px;border-radius:9px}
+.fl{width:88px;border-radius:16px;margin-bottom:10px}
+.rv{opacity:0;transform:translateY(18px);transition:.6s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header><div class="w nav">
+<a class="logo" href="#top"><img src="assets/logo.jpg" alt="Gateway Auto Garage logo" width="42" height="42">Gateway Auto Garage</a>
+<nav><a href="#offers">Offers</a><a href="#services">Services</a><a href="#help">Car problem?</a><a href="#book">Book</a></nav>
+<a class="btn y hcall" href="tel:+971552619449">Call now</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="since" aria-hidden="true">2002</div>
+<div class="w" style="position:relative">
+<h1>Your car. <span>Our care.</span></h1>
+<p>Mechanical, denting, painting, AC, gearbox, electrical and rim work under one roof in Ajman. Honest advice and fair prices since 2002.</p>
+<div class="cta">
+<a class="btn g" data-wa="Hi Gateway Auto Garage, I would like to book a service.">Book on WhatsApp</a>
+<a class="btn o" href="#services">See services</a></div>
+<div class="hv"><div class="tilt"><img src="assets/logo.jpg" alt="Gateway Auto Garage LLC, established since 2002" fetchpriority="high"></div></div>
+<div class="stats">
+<div><b data-n="22">0</b><small>Years in Ajman</small></div>
+<div><b data-n="12">0</b><small>Repair services</small></div>
+<div><b data-n="6">0</b><small>Vehicle types &amp; fleets</small></div>
+</div></div></div>
+<div class="strip" aria-hidden="true"><div>Mechanical &nbsp;•&nbsp; Denting &amp; Painting &nbsp;•&nbsp; AC Service &nbsp;•&nbsp; Gearbox &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Rim Painting &nbsp;•&nbsp; Fleet Care &nbsp;•&nbsp; Mechanical &nbsp;•&nbsp; Denting &amp; Painting &nbsp;•&nbsp; AC Service &nbsp;•&nbsp; Gearbox &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Rim Painting &nbsp;•&nbsp; Fleet Care &nbsp;•&nbsp;</div></div>
+
+<section id="offers"><div class="w rv">
+<h2>Start with an offer</h2>
+<p class="lead">Know the condition of a car before you drive it, buy it or bid on it.</p>
+<div class="offers">
+<div class="offer hot"><span class="tag">Free</span><h3>Basic vehicle check</h3><p>Engine, brakes, battery, fluids, AC and a visual inspection for leaks. Catch small problems before they become breakdowns.</p><a class="btn" data-wa="Hi, I would like the free basic vehicle check.">Book free check</a></div>
+<div class="offer"><span class="tag">Buying at auction?</span><div class="big" style="color:var(--yellow)">AED 149</div><p>Auction vehicle visit and visual assessment of body, engine, gearbox, suspension and chassis. The fee is adjusted against your repair bill if we fix the car.</p><a class="btn y" data-wa="Hi, I would like an auction car assessment (AED 149).">Book assessment</a></div>
+<div class="offer"><span class="tag">Businesses</span><h3>Fleet management</h3><p>Cars, vans, pickups, 4x4 and commercial vehicles. Fleet rates, priority service, maintenance contracts and service reports.</p><a class="btn y" data-wa="Hi, I would like to discuss fleet maintenance for my company.">Get fleet rates</a></div>
+</div></div></section>
+
+<section class="jr" id="journey"><div class="w rv">
+<h2>From damaged to delivered</h2>
+<p class="lead">Scroll to follow a car through our workshop.</p>
+<div class="road" id="road"><svg class="cr" id="cr" viewBox="0 0 100 50" aria-hidden="true"><path d="M4 38V30q0-5 8-6l14-9q4-3 10-3h26q6 0 10 4l9 8q9 1 9 6v8z" fill="#f7c600"/><path d="M30 17h14v8H24zM48 17h13l8 8H48z" fill="#081540" opacity=".75"/><g class="wl"><circle cx="28" cy="39" r="9" fill="#081540" stroke="#fff" stroke-width="2"/><path d="M28 32v14M21 39h14" stroke="#fff" stroke-width="2"/></g><g class="wl"><circle cx="76" cy="39" r="9" fill="#081540" stroke="#fff" stroke-width="2"/><path d="M76 32v14M69 39h14" stroke="#fff" stroke-width="2"/></g></svg></div>
+<div class="jg"><ol class="jl" id="jl"></ol><div class="jimg" id="jimg"></div></div>
+</div></section>
+<section id="services" style="background:#f0f2fb"><div class="w rv">
+<h2>What we fix</h2>
+<p class="lead">All makes and models. Pick a category to see what is included.</p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="panel" id="panel" role="tabpanel"></div>
+</div></section>
+
+<section class="all-s"><div class="w rv"><h2>Every service, one garage</h2><p class="lead">Tap any service to ask about it on WhatsApp.</p><div id="grp"></div></div></section>
+<section><div class="w two rv">
+<div><h2>Before and after</h2><p class="lead">Drag the slider. Scratched panels, dents and faded paint come back looking new, with computerized colour matching.</p><a class="btn g" data-wa="Hi, I would like a quote for denting and painting.">Get a paint quote</a></div>
+<div class="ba" id="ba"><img src="assets/after.jpg" alt="After repair" loading="lazy"><img id="bf" src="assets/before.jpg" alt="Before repair" loading="lazy"><i id="bl"></i><em style="left:12px">Before</em><em style="right:12px">After</em><input type="range" min="0" max="100" value="50" aria-label="Before and after slider" id="br"></div>
+</div></section>
+<section style="background:#f0f2fb"><div class="w rv"><h2>Rim painting</h2><p class="lead">Tap a card to flip it. Premium paint that resists heat and corrosion, for cars, SUVs, pickups and 4x4.</p>
+<div class="rims" id="rims"></div></div></section>
+<section><div class="w rv"><h2>Inside the workshop</h2><p class="lead">A clean paint booth, modern equipment and technicians who explain the work before they start.</p>
+<div class="wk"><figure><img src="assets/booth.jpg" alt="Gateway Auto Garage paint booth" loading="lazy"><figcaption>Paint booth</figcaption></figure>
+<figure><img src="assets/damage.jpg" alt="Technician assessing a damaged auction car" loading="lazy"><figcaption>Auction assessments</figcaption></figure></div></div></section>
+<section class="sym" id="help"><div class="w rv">
+<h2>Not sure what is wrong?</h2>
+<p class="lead">Tap what you notice. We will point you to the right service.</p>
+<div class="chips" id="chips"></div>
+<div class="res" id="res"><b>Choose a symptom above</b>We will suggest a check and you can book it in one tap.</div>
+</div></section>
+
+<section><div class="w rv">
+<h2>Why drivers stay with us</h2>
+<div class="why">
+<div><h3>Since 2002</h3><p>Over two decades of experience with individual drivers, corporate fleets and commercial clients.</p></div>
+<div><h3>Honest estimates</h3><p>Clear advice and realistic prices. We tell you what needs fixing and what can wait.</p></div>
+<div><h3>Everything under one roof</h3><p>Mechanical, body, paint, AC, gearbox and electrical work in one workshop.</p></div>
+<div><h3>Modern equipment</h3><p>Computer diagnostics, computerized colour matching and quality spare parts.</p></div>
+</div></div></section>
+
+<section class="book" id="book"><div class="w bgrid rv">
+<div class="info"><h2>Book in 30 seconds</h2>
+<p>Fill in the form and it opens WhatsApp with your details ready to send. Or reach us directly.</p>
+<a class="big" href="tel:+971552619449">055 261 9449</a>
+<a class="big" href="tel:+971507237868">050 723 7868</a>
+<p style="margin-top:14px">Ajman New Industrial Area 2, Ajman, UAE</p>
+<div class="btns"><a class="btn y" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gateway+Auto+Garage+Ajman+New+Industrial+Area+2">Get directions</a>
+<a class="btn g" data-wa="Hi Gateway Auto Garage, I have a question.">Chat now</a></div></div>
+<form id="f">
+<label>Your name<input id="n" autocomplete="name" placeholder="Name" required></label>
+<label>Service<select id="s"></select></label>
+<label>Car make and model<input id="c" placeholder="e.g. Toyota Land Cruiser 2018"></label>
+<label>Details (optional)<textarea id="m" rows="3" placeholder="Tell us what is happening"></textarea></label>
+<button class="btn g" type="submit">Send on WhatsApp</button>
+</form></div></section>
+</main>
+
+<footer><div class="w"><img class="fl" src="assets/logo.jpg" alt="Gateway Auto Garage logo"><div class="ar">كراج جيت واي للسيارات ذ.م.م</div>Gateway Auto Garage LLC &nbsp;|&nbsp; Ajman New Industrial Area 2, Ajman, UAE<br>&copy; <span id="y"></span> All rights reserved.</div></footer>
+
+<div class="bar">
+<a class="btn g wa" data-wa="Hi Gateway Auto Garage, I would like to book a service."><svg width="22" height="22" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.1.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2 1.3 2.3 1.4.3.2.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.8-.1 1.4z"/></svg>Book on WhatsApp</a>
+<a class="btn call" href="tel:+971552619449" aria-label="Call Gateway Auto Garage">Call</a>
+</div>
+
+<script>
+const NUM="971552619449";
+const wa=t=>"https://wa.me/"+NUM+"?text="+encodeURIComponent(t);
+document.querySelectorAll("[data-wa]").forEach(a=>{a.href=wa(a.dataset.wa);a.target="_blank";a.rel="noopener"});
+document.getElementById("y").textContent=new Date().getFullYear();
+
+const IMG={"Mechanical":"mechanical","Brakes":"mechanical","Suspension and steering":"mechanical","Cooling system":"mechanical","Oil change":"mechanical","AC service":"booth","Battery":"electrical","Electrical":"electrical","Gearbox":"gear","Denting":"denting","Painting":"painting","Rim painting":"rim","Inspection":"damage","Auction check":"damage","Fleet":"car"};
+const S={
+"Mechanical":["Engine diagnostics and repair","Routine maintenance and servicing","Suspension and steering repairs","Brake system repairs","Cooling system repairs","Air conditioning service and repair","Oil and filter replacement"],
+"Brakes":["Brake pads","Brake discs","Brake fluid","ABS inspection","Complete brake check"],
+"Suspension and steering":["Suspension check","Steering inspection","Wheel alignment","Bushes and mounts","Balancing"],
+"Cooling system":["Radiator check","Coolant leaks","Thermostat","Water pump","Cooling fan"],
+"Oil change":["Engine oil change","Oil filter replacement","Fluid top-up and leak check","Fuel efficiency check: spark plugs, injectors, air filter, engine tune-up"],
+"AC service":["AC gas refill","Leak test","Compressor check","Condenser cleaning","Cabin air filter"],
+"Battery":["Battery health test","Battery replacement","Starter motor and alternator","Slow start and dim lights diagnosis"],
+"Electrical":["Computer diagnostics","Electrical fault finding","Starter motor and alternator repairs","Battery replacement","Lighting system repairs","Wiring and electronic component repairs","Sensors"],
+"Gearbox":["Manual transmission repair","Automatic transmission diagnostics and repair","Clutch replacement","Differential and drivetrain repairs","Jerking, slipping or delayed shifting"],
+"Denting":["Minor and major accident repairs","Chassis straightening","Panel replacement and repair","Dent removal","Structural body repairs"],
+"Painting":["Complete vehicle repainting","Panel painting","Scratch and paint damage repair","Computerized colour matching","Paint polishing and finishing"],
+"Rim painting":["Matt black","Crystal colour","Calipers painting","Heat and corrosion resistant paint","Cars, SUVs, pickups and 4x4"],
+"Inspection":["Free basic vehicle check","Pre-purchase inspection","Engine, gearbox, brakes and suspension","Computer diagnostic","Accident signs, leaks and fluids","Detailed report"],
+"Auction check":["AED 149 visit and visual assessment","Body damage, chassis, suspension","Engine and gearbox (visual, vehicle started)","Repair estimate before you bid","Fee adjusted against your repair bill"],
+"Fleet":["Regular maintenance","Fleet rates and corporate accounts","Priority service and on-time delivery","Detailed service reports","Annual maintenance contracts","Cars, vans, pickups, 4x4 and commercial vehicles"]};
+const tabs=document.getElementById("tabs"),panel=document.getElementById("panel"),sel=document.getElementById("s");
+Object.keys(S).forEach((k,i)=>{
+ const b=document.createElement("button");b.className="tab";b.role="tab";b.textContent=k;b.onclick=()=>show(k);tabs.appendChild(b);
+ sel.add(new Option(k,k));
+});
+["Other / not sure"].forEach(o=>sel.add(new Option(o,o)));
+function show(k){
+ [...tabs.children].forEach(b=>b.setAttribute("aria-selected",b.textContent===k));
+ panel.innerHTML="";panel.style.animation="none";panel.offsetWidth;panel.style.animation="";
+ const l=document.createElement("div");l.innerHTML="<h3>"+k+"</h3><p style='color:#5b6280;margin-bottom:16px'>What is included:</p>";
+ const u=document.createElement("ul");S[k].forEach(t=>{const li=document.createElement("li");li.textContent=t;u.appendChild(li)});l.appendChild(u);
+ const r=document.createElement("div");r.style.alignSelf="center";r.innerHTML="<img class='ph' src='assets/"+IMG[k]+".jpg' alt='"+k+"' loading='lazy'>";
+ const a=document.createElement("a");a.className="btn g";a.textContent="Ask about "+k.toLowerCase();a.href=wa("Hi, I need "+k+" service.");a.target="_blank";a.rel="noopener";
+ r.insertAdjacentHTML("beforeend","<p style='margin-bottom:16px'>Send us a message with your car details and we will confirm a time and a realistic estimate.</p>");r.appendChild(a);
+ panel.append(l,r);
+}
+show("Mechanical");
+
+const P={
+"Overheating":["Cooling system check","Radiator, coolant leaks, thermostat, water pump and cooling fan. Stop driving if the temperature warning stays on.","Mechanical"],
+"AC not cold":["AC service","Gas refill, leak test, compressor and condenser check.","AC service"],
+"Brake noise":["Brake inspection","Pads, discs, brake fluid and ABS. Do not ignore brake noise.","Mechanical"],
+"Vibration or pulling":["Suspension and steering check","Suspension, steering, wheel alignment, bushes and balancing.","Mechanical"],
+"Strange noise":["Full diagnosis","Knocking, grinding, squealing or humming: we find the source before it costs more.","Mechanical"],
+"Gears jerking":["Gearbox check","Delayed shifting, slipping, fluid leaks or a warning light.","Gearbox"],
+"Slow start":["Battery and electrical test","Slow crank, dim lights, clicking sound or corrosion on the terminals.","Electrical"],
+"High fuel use":["Fuel efficiency check","Spark plugs, injectors, air filter, sensors and throttle body.","Mechanical"],
+"Dents and scratches":["Denting and painting","Dent repair, full painting, touch-up and colour matching.","Denting"]};
+const chips=document.getElementById("chips"),res=document.getElementById("res");
+Object.keys(P).forEach(k=>{const b=document.createElement("button");b.className="chip";b.textContent=k;b.setAttribute("aria-pressed","false");
+ b.onclick=()=>{[...chips.children].forEach(c=>c.setAttribute("aria-pressed",c===b));const [t,d,s]=P[k];
+  res.innerHTML="<b>"+t+"</b>"+d+"<br>";
+  const a=document.createElement("a");a.className="btn g";a.textContent="Book this check";a.href=wa("Hi, my car has this problem: "+k+". I would like a "+t.toLowerCase()+".");a.target="_blank";a.rel="noopener";res.appendChild(a);
+  const l=document.createElement("a");l.className="btn o";l.style.marginLeft="10px";l.textContent="See "+s.toLowerCase();l.href="#services";l.onclick=()=>show(s);res.appendChild(l);};
+ chips.appendChild(b)});
+
+document.getElementById("f").onsubmit=e=>{e.preventDefault();
+ const t="Hi Gateway Auto Garage,\nName: "+n.value+"\nService: "+s.value+"\nCar: "+(c.value||"-")+"\nDetails: "+(m.value||"-");
+ window.open(wa(t),"_blank","noopener")};
+
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.1});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+document.querySelectorAll("[data-n]").forEach(el=>{const to=+el.dataset.n;let v=0;const id=setInterval(()=>{v++;el.textContent=v+(to>=20?"+":"");if(v>=to)clearInterval(id)},1400/to)});
+
+const G={"Engine and mechanical":["Engine diagnostics and repair","Routine maintenance and servicing","Oil and filter change","Brake repairs","Suspension and steering","Cooling system","Wheel alignment and balancing","Fuel efficiency and engine tune-up"],
+"AC, battery and electrical":["AC gas refill and repair","Battery test and replacement","Computer diagnostics","Electrical fault finding","Starter motor and alternator","Lighting repairs","Wiring and electronics"],
+"Gearbox and drivetrain":["Manual transmission repair","Automatic transmission repair","Clutch replacement","Differential and drivetrain"],
+"Body and paint":["Accident repairs","Chassis straightening","Panel replacement","Dent removal","Structural body repairs","Full vehicle repainting","Scratch repair","Colour matching","Polishing and finishing","Rim painting","Calipers painting"],
+"Inspection and fleet":["Free basic vehicle check","Pre-purchase inspection","Auction car assessment (AED 149)","Fleet maintenance","Annual maintenance contracts"]};
+const grp=document.getElementById("grp");
+Object.keys(G).forEach(k=>{grp.insertAdjacentHTML("beforeend","<div class='gp'>"+k+"</div>");const d=document.createElement("div");d.className="all";
+ G[k].forEach(t=>{const a=document.createElement("a");a.textContent=t;a.href=wa("Hi, I need: "+t);a.target="_blank";a.rel="noopener";d.appendChild(a)});grp.appendChild(d)});
+const R=[["Matt black","rim1","Clean, modern and sporty."],["Crystal colour","rim2","A deep gloss colour that stands out."],["Calipers","rim3","Bright caliper paint behind your rims."]];
+const rims=document.getElementById("rims");
+R.forEach(([n,i,d])=>{const c=document.createElement("div");c.className="fc";c.tabIndex=0;
+ c.innerHTML="<div class='fi'><div class='fa'><img src='assets/"+i+".jpg' alt='"+n+"' loading='lazy'><b>"+n+"</b></div><div class='fb'><strong style='font:800 24px var(--d)'>"+n+"</strong>"+d+"<a class='btn g' target='_blank' rel='noopener' href='"+wa("Hi, I would like rim painting: "+n)+"'>Ask on WhatsApp</a></div></div>";
+ c.onclick=e=>{if(!e.target.closest("a"))c.classList.toggle("f")};rims.appendChild(c)});
+const br=document.getElementById("br");
+br.oninput=()=>{document.getElementById("bf").style.clipPath="inset(0 "+(100-br.value)+"% 0 0)";document.getElementById("bl").style.left=br.value+"%"};
+br.oninput();
+const J=[["Drop-off","Bring the car in or WhatsApp us photos and tell us what happened.","damage"],["Inspection and estimate","We check the car and give a realistic estimate before any work starts.","mechanical"],["Repair","Dents, panels, engine, gearbox or electrical work by our technicians.","denting"],["Paint","Computerized colour matching and a clean paint booth.","painting"],["Finishing","Polishing, final checks and a test.","booth"],["Delivery","Your car back on the road, looking and driving right.","car"]];
+const jl=document.getElementById("jl"),ji=document.getElementById("jimg");
+J.forEach(([t,d,i],n)=>{jl.insertAdjacentHTML("beforeend","<li><b>"+(n+1)+"</b><div>"+t+"<span>"+d+"</span></div></li>");ji.insertAdjacentHTML("beforeend","<img src='assets/"+i+".jpg' alt='"+t+"' loading='lazy'>")});
+const li=jl.children,im=ji.children,cr=document.getElementById("cr"),rd=document.getElementById("road");
+function jr(){const sec=document.getElementById("journey"),r=sec.getBoundingClientRect(),h=innerHeight;
+ const p=Math.max(0,Math.min(1,(h*.7-r.top)/(r.height*.8)));
+ cr.style.left=(p*(rd.clientWidth-90))+"px";
+ const k=Math.min(J.length-1,Math.floor(p*J.length));
+ for(let n=0;n<J.length;n++){li[n].classList.toggle("on",n<=k);im[n].classList.toggle("on",n===k)}}
+addEventListener("scroll",jr,{passive:true});addEventListener("resize",jr);jr();
+if(matchMedia("(pointer:fine)").matches&&!matchMedia("(prefers-reduced-motion:reduce)").matches)document.querySelectorAll(".tilt").forEach(t=>{
+ const h=t.parentElement;h.addEventListener("pointermove",e=>{const b=h.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;t.style.transform="rotateY("+x*24+"deg) rotateX("+-y*24+"deg)"});
+ h.addEventListener("pointerleave",()=>t.style.transform="")});
+</script>
+</body>
+</html>
